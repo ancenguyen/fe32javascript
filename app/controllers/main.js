@@ -36,6 +36,11 @@ function themNguoiDung(){
 }
 
 
+function themTestGit(){
+  console.log("themnguoidung");
+}
+
+
 function getListUser(){
   nguoiDungService.layDanhSachNguoiDung()
   // neu promise dung, tra ve result: .then
