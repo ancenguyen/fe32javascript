@@ -35,6 +35,10 @@ function themNguoiDung(){
   })
 }
 
+function themTestGit(){
+  console.log("themTestGit");
+}
+
 
 function getListUser(){
   nguoiDungService.layDanhSachNguoiDung()
